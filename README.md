@@ -1,11 +1,9 @@
-#HEXAHEALTH
-<hr>
+# HEXAHEALTH
 Hexahealth is a inline command run diary where it compares a users entry against an already placed database set by a program before hand. The aim is to make daily entries to see how you got on through the previous 24 hour period against what the program sets you.<br><br>
 <a href="#">Link to my deployed project</a>
 <img src="#">
 <br>
 <hr>
-<br>
 <h2>Table of Contents</h2>
   <ol>
   <li><a href="#">Flowchart</a></li>
