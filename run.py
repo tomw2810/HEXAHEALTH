@@ -3,12 +3,12 @@ The start of something healthy
 """
 
 goals_diary = {
-    "Number of Meals": 3,
-    "Resting Heartbeat": 89,
-    "Calorie Goal": 2000,
-    "Miles Walked": 4,
-    "Hours Slept": 7,
-    "Weight": 140
+    "number_of_meals": 3,
+    "resting_heartbeat": 89,
+    "calorie_goal": 2000,
+    "miles_walked": 4,
+    "hours_slept": 7,
+    "weight": 140
 }
 
 
@@ -19,19 +19,18 @@ def start_diary():
     for the diary you create.
     """
 
-    global name
     name = input("Please type your name and hit the enter key:\n")
 
     while not name.strip():
-        print("Please enter your name to begin the entries\n”)
+        print("Please enter your name to begin the entries\n")
         name = input("Please type your name and hit the enter key:\n")
     else:
-        print("Welcome to HEXAHEALTH your personal health diary\n”)
-        print(“Input your own figures to see how you stack up\n”)
-        print(“We supply you a guidance diary for you to compare to\n”)
-        print(“Ready? Start now\n”)
+        print("Welcome to HEXAHEALTH your personal health diary\n")
+        print("Input your own figures to see how you stack up\n")
+        print("We supply you a guidance diary for you to compare to\n")
+        print("Ready? Start now\n")
 
-   restart_diary = True
+    restart_diary = True
 
     while restart_diary:
         diary_enteries = input("Are you ready to begin? y/n\n")
@@ -46,62 +45,62 @@ def start_diary():
 
 # main()
 
+
 while True:
     number = int(input("Please enter the amount of meals you had today:"))
 
-if number >= ['Number of Meals']:
-    print(f"{number} is not a great number for today\n")
-else:
-    print(f"{number} is what you should be having daily, nice!\n")
+    if number >= goals_diary['number_of_meals']:
+        print(f"{number} is not a great number for today\n")
+    else:
+        print(f"{number} is what you should be having daily, nice!\n")
 
     resting_heartbeat = int(input("Please enter your heartbeat figure:"))
 
-if resting_heartbeat >= ['Resting Heartbeat']:
-    print(f"{resting_heartbeat} is above your daily target\n")
-    print("Please consider exercising more to improve this\n")
-else:
-    print(f"{resting_heartbeat} is not exactly what you want to see!\n")
+    if resting_heartbeat >= goals_diary['resting_heartbeat']:
+        print(f"{resting_heartbeat} is above your daily target\n")
+        print("Please consider exercising more to improve this\n")
+    else:
+        print(f"{resting_heartbeat} is not exactly what you want to see!\n")
 
-calories = int(input("Please enter your calorie intake for today:"))
+    calories = int(input("Please enter your calorie intake for today:"))
 
-if calories <= ['Calorie Goal']:
-    print(f"{calories} is exactly what you want to see!\n")
-else:
-    print(f"{calories} is going towards something too high for you\n")
+    if calories <= goals_diary['calorie_goal']:
+        print(f"{calories} is exactly what you want to see!\n")
+    else:
+        print(f"{calories} is going towards something too high for you\n")
 
-miles_walked = int(
-    input("Please enter the aount of miles walked for today:"))
+    miles_walked = int(
+        input("Please enter the aount of miles walked for today:"))
 
-if miles_walked >= ['Miles Walked']:
-    print(f"{miles_walked} is exactly what you want to see!\n")
-else:
-    print(f"{miles_walked} has not reached your goal, walk a bit more\n")
+    if miles_walked >= goals_diary['miles_walked']:
+        print(f"{miles_walked} is exactly what you want to see!\n")
+    else:
+        print(f"{miles_walked} has not reached your goal, walk a bit more\n")
 
-hours_slept = int(input("Please enter the amount of slept last night:"))
+    hours_slept = int(input("Please enter the amount of slept last night:"))
 
-if hours_slept <= ['Hours Slept']:
-    print(f"{hours_slept} is not exactly what you want to see!\n")
-else:
-    print(f"{hours_slept} has exceeded your daily target, nice one!\n")
+    if hours_slept <= goals_diary['hours_slept']:
+        print(f"{hours_slept} is not exactly what you want to see!\n")
+    else:
+        print(f"{hours_slept} has exceeded your daily target, nice one!\n")
 
-weight = int(input("Please enter the daily end weight:"))
+    weight = int(input("Please enter the daily end weight:"))
 
-if weight <= ['Weight']:
-    print(f"{weight} means you are on track, \n")
-    print("But remember, you shouldnt over do it")
-else:
-    print(f"{weight} means you need to stick to your diary better\n")
+    if weight <= goals_diary['weight']:
+        print(f"{weight} means you are on track, \n")
+        print("But remember, you shouldnt over do it\n")
+    else:
+        print(f"{weight} means you need to stick to your diary better\n")
 
+    LEAVE_DIARY = True
 
-LEAVE_DIARY = True
+    while True:
+        exit_diary = input("Are you sure you want to leave? y/n\n")
 
-while True:
-    exit_diary = input("Are you sure you want to leave? y/n\n")
-
-if exit_diary.lower() == "y":
-    print("Ok remember to come back tomorrow\n")
-    break:
-elif exit_diary.lower() == "n":
-    print("Type 'y' to enter another diary entry\n")
-else:
-    print("That is not a valid option\n")
+        if exit_diary.lower() == "y":
+            print("Ok remember to come back tomorrow\n")
+            break
+        elif exit_diary.lower() == "n":
+            print("Type 'y' to enter another diary entry\n")
+        else:
+            print("That is not a valid option\n")
