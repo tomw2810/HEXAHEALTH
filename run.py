@@ -19,16 +19,17 @@ def start_diary():
     for the diary you create.
     """
 
+    print("Welcome to HEXAHEALTH your personal health diary\n")
+    print("Input your own figures to see how you stack up\n")
+    print("We supply you a guidance diary for you to compare to\n")
+    print("Ready? Start now\n")
+
     name = input("Please type your name and hit the enter key:\n")
 
-    while not name.strip():
+    while not name:
         print("Please enter your name to begin the entries\n")
-        name = input("Please type your name and hit the enter key:\n")
     else:
-        print("Welcome to HEXAHEALTH your personal health diary\n")
-        print("Input your own figures to see how you stack up\n")
-        print("We supply you a guidance diary for you to compare to\n")
-        print("Ready? Start now\n")
+        print("Please enter your name\n")
 
     restart_diary = True
 
@@ -42,8 +43,6 @@ def start_diary():
             print("Type 'y' when you are ready to begin\n")
         else:
             print("That is not a valid option\n")
-
-# main()
 
 
 while True:
@@ -70,7 +69,7 @@ while True:
         print(f"{calories} is going towards something too high for you\n")
 
     miles_walked = int(
-        input("Please enter the aount of miles walked for today:"))
+        input("Please enter the amount of miles walked for today:"))
 
     if miles_walked >= goals_diary['miles_walked']:
         print(f"{miles_walked} is exactly what you want to see!\n")
@@ -81,6 +80,7 @@ while True:
 
     if hours_slept <= goals_diary['hours_slept']:
         print(f"{hours_slept} is not exactly what you want to see!\n")
+        print("Get some more rest tonight!\n")
     else:
         print(f"{hours_slept} has exceeded your daily target, nice one!\n")
 
