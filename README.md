@@ -6,32 +6,31 @@ Hexahealth is a inline command run diary where it compares a users entry against
 <hr>
 <h2>Table of Contents</h2>
   <ol>
-  <li><a href="#">Flowchart</a></li>
+  <li>Flowchart</li>
   <br>
-  <li><a href="#">Wireframe</a></li>
+  <li>User Experience</li>
   <br>
-  <li><a href="#">User Experience</a></li>
+  <li>Features</li>
   <br>
-  <li><a href="#">Features</a></li>
+   <li>Data Handling</li>
   <br>
-   <li><a href="#">Data Handling</a></li>
+  <li>Data Model</li>
   <br>
-  <li><a href="#">Data Model</a></li>
+  <li>Testing</li>
   <br>
-  <li><a href="#">Testing</a></li>
+  <li>Bugs</li>
   <br>
-  <li><a href="#">Bugs</a></li>
+   <li>Other Resources Used</li>
   <br>
-   <li><a href="#">Other Resources Used</a></li>
+  <li>Deployed</li>
   <br>
-  <li><a href="#">Deployed</a></li>
-  <br>
-  <li><a href="#">Credits</a></li>
+  <li>Credits</li>
   <br>
   <hr>
   <h3>Flowchart</h3>
   <br>
-  <img src="#">
+  <img src="images/flow-chart.png" alt="a picture of a flow chart">
+  <p>I used Lucid Chart to produce a simple flow chart demonstrating the flow of the program</p>
   <br>
   
   <h3>User Experience</h3>
@@ -43,6 +42,15 @@ Hexahealth is a inline command run diary where it compares a users entry against
       <li>If the data is on or inside the guided data then feedback is printed to the console in a positive manor</li>
       <li>If the data is over the guided data then then feedback is printed to advise to follow the set figures for the program</li>
       <li>Once completed user exits or starts again</li>
+  </ul>
+  <br>
+  <h4>Project Goals</h4>
+    <li>Provide some information feedback relating to a guidance already in place within the program</li>
+    <li>Learn where a user can improve against the values within the program</li>
+  
+ <hr>
+  
+  <h3>
       
   
   
