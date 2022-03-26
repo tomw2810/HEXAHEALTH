@@ -1,6 +1,6 @@
 # HEXAHEALTH
 Hexahealth is a inline command run diary where it compares a users entry against an already placed database set by a program before hand. The aim is to make daily entries to see how you got on through the previous 24 hour period against what the program sets you.<br><br>
-<a href="#">Link to my deployed project</a>
+<a href="https://hexahealth.herokuapp.com/">Link to my deployed project</a>
 <img src="#">
 <br>
 <hr>
@@ -52,7 +52,29 @@ Hexahealth is a inline command run diary where it compares a users entry against
   </ul>
  <hr>
   
-  <h3>
+  <h3>Instructions/Run Through</h3>
+    <p>At first you already know what the program involves being a health program. You get a set list if questions which are:</p><br>
+  <img src="images/number-meals.png"><br>
+  <p>The first one shows how many meals a user has, the value comparisonis built in to the program for instant feedback.</p>
+  <br>
+  <img src="images/heartbeat.png"><br>
+  <p>The next qestion asks a user their heartbeat at resting for the day</p>
+  <br>
+  <img src="images/number-calories.png"><br>
+  <p>The next qestion asks a user their number of calories against the standard diary within the program</p>
+  <br>
+  <img src="images/number-miles.png"><br>
+  <p>The next qestion asks a user their number of miles walked against the value in the program</p>
+  <br>
+  <img src="images/hours-slept.png"><br>
+  <p>The next qestion asks a user their number of hours slept compared to the value in the program</p>
+  <br>
+  <img src="images/daily-weight.png"><br>
+  <p>The last qestion asks a user their end of their day weight to see if there has been any improvement.</p>
+  <br>
+  
+  
+    
       
   
   
