@@ -73,8 +73,14 @@ Hexahealth is a inline command run diary where it compares a users entry against
   <p>The last qestion asks a user their end of their day weight to see if there has been any improvement.</p>
   <br>
   
-  
-    
+  <h3>Bugs</h3>
+  <h4>Deployment of start paragraph<h4>
+  <p>Unfortunately I didnt manage to get the start print statements to apply themselves before the questions come up, its something that really dissapointed myself in this project but for various reasons outside of this I just havnent had the chance to keep trying</p>
+  <br>
+  <h4>Final colletive data</h4>
+  <p>Althought I have been scrolling google and stack overflow I havent been able to recreate a way to output the data at the end as one collective data. Again because of lack of time and issues away from from this course it simply hasnt been doable, and for this I am gutted to be honest.</p> 
+  <h4>Heartbeat result</h4>
+  <p>For some reason a user input always comes out neagtive for this question which I simply can not find out why, something to dive into deeper another time</p>
       
   
   
