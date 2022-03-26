@@ -119,3 +119,5 @@ Hexahealth is a inline command run diary where it compares a users entry against
         <li>Ensure that ‘main’ branch is selected in Manual deploy section and click ‘Deploy Branch’.</li>
        <li>Once deployed, click ‘view’ to access deployed project.</li>
         
+       <h4>Credits</h4>
+       <p> I want to thank my mentor Jack for his help and understanding on different issues through this project. He also fixed something that a Code Institute tutor gave me which turned out to be wrong, wasting 90 minutes of my time for one line of code which I really didnt have in the first place with long working days. </p>
