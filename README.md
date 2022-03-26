@@ -26,6 +26,7 @@ Hexahealth is a inline command run diary where it compares a users entry against
   <br>
   <li>Credits</li>
   <br>
+  </ol>
   <hr>
   <h3>Flowchart</h3>
   <br>
@@ -45,9 +46,10 @@ Hexahealth is a inline command run diary where it compares a users entry against
   </ul>
   <br>
   <h4>Project Goals</h4>
+  <ul>
     <li>Provide some information feedback relating to a guidance already in place within the program</li>
     <li>Learn where a user can improve against the values within the program</li>
-  
+  </ul>
  <hr>
   
   <h3>
