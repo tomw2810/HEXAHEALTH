@@ -5,7 +5,7 @@ Hexahealth is a inline command run diary where it compares a users entry against
 <br>
 <hr>
 <h2>Table of Contents</h2>
-  <ol>
+  <ul>
   <li>Flowchart</li>
   <br>
   <li>User Experience</li>
@@ -26,7 +26,7 @@ Hexahealth is a inline command run diary where it compares a users entry against
   <br>
   <li>Credits</li>
   <br>
-  </ol>
+  </ul>
   <hr>
   <h3>Flowchart</h3>
   <br>
