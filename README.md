@@ -96,9 +96,18 @@ Hexahealth is a inline command run diary where it compares a users entry against
        <h3>Data Handling</h3>
         <p> In this project the data that a user gets compared to is set in a dictionary. Any additional questions and comparison values can be added the code and applied easily if more data was required</p>
        <br>
+       
+       <hr>
+       <br>
+       <h3>Testing</h3>
+       <h4>PEP8</h4>
+       <p>No issues</p>
+       <br>
+       <hr>
+       <br>
        <h3>Deployment</h3>
        
-       Deployment was done at the start of the project to allow device testing throughout the development process.
+       <p>Deployment was done at the start of the project to allow device testing throughout the development process.</p>
 
        <p>My project was deployed via Heroku as follows:</p>
 <ul>
