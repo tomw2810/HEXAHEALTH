@@ -86,4 +86,10 @@ Hexahealth is a inline command run diary where it compares a users entry against
        <br>
        <hr>
   
-  
+  <br>
+       <h3>Features to Add</h3>
+       <ul>
+       <li>Add the ability to share your details before questionaire and add a personal response to the program</li>
+       <li>Be able to output final data in a collective way from a dictionary and for it to be a bit more fun, not sure how yet but getting it working first would be helpful</li>
+      <br>
+         <hr>
