@@ -76,7 +76,8 @@ while True:
     else:
         print(f"{miles_walked} has not reached your goal, walk a bit more\n")
 
-    hours_slept = int(input("Please enter the amount of slept last night:"))
+    hours_slept = int(
+        input("Please enter the amount of hours slept last night:"))
 
     if hours_slept <= goals_diary['hours_slept']:
         print(f"{hours_slept} is not exactly what you want to see!\n")
@@ -95,6 +96,7 @@ while True:
     LEAVE_DIARY = True
 
     while True:
+        print("Well done on completing todays diary, go again tomorrow\n")
         exit_diary = input("Are you sure you want to leave? y/n\n")
 
         if exit_diary.lower() == "y":
