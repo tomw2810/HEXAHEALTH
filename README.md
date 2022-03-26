@@ -91,5 +91,31 @@ Hexahealth is a inline command run diary where it compares a users entry against
        <ul>
        <li>Add the ability to share your details before questionaire and add a personal response to the program</li>
        <li>Be able to output final data in a collective way from a dictionary and for it to be a bit more fun, not sure how yet but getting it working first would be helpful</li>
+       </ul>
       <br>
-         <hr>
+  <hr>
+         <br>
+       <h3>Data Handling</h3>
+        <p> In this project the data that a user gets compared to is set in a dictionary. Any additional questions and comparison values can be added the code and applied easily if more data was required</p>
+       <br>
+       <h3>Deployment</h3>
+       
+       Deployment was done at the start of the project to allow device testing throughout the development process.
+
+       <p>My project was deployed via Heroku as follows:</p>
+
+       <li>Remove un-used imports from run.py file.</li>
+        <li>In order for input methods to work properly in the deployed mock terminal, add a new line character at the end of the text, inside the input method.</li>
+        <li>If required, create list of requirements with the following command in the terminal: pip3 freeze > requirements.txt</li>
+        <li>In Heroku account, go to Dashboard and click ‘Create New App’. Give the app a unique name and select region (Europe).</li>
+        <li>Click ‘Create App’.<li>
+        <li>Go to Settings tab and set up Config Vars (only required if using a creds.json file).</li>
+       <li>Click ‘Add Buildpack’, select Python and click ‘Save Changes’.</li>
+        <li>Then select ‘NodeJS’ and click save again. IMPORTANT - Buildpacks should be in order. Python on top of NodeJS.<li>
+       <li>Click on ‘Deploy’ tab.</li>
+       <li>Select ‘GitHub' as deployment method.</li>
+       <li>Search for repo name and connect.</li>
+       <li>Click ‘Enable Automatic Deploys’.</li>
+        <li>Ensure that ‘main’ branch is selected in Manual deploy section and click ‘Deploy Branch’.</li>
+       <li>Once deployed, click ‘view’ to access deployed project.</li>
+        
