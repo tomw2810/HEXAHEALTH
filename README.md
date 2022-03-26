@@ -81,6 +81,9 @@ Hexahealth is a inline command run diary where it compares a users entry against
   <p>Althought I have been scrolling google and stack overflow I havent been able to recreate a way to output the data at the end as one collective data. Again because of lack of time and issues away from from this course it simply hasnt been doable, and for this I am gutted to be honest.</p> 
   <h4>Heartbeat result</h4>
   <p>For some reason a user input always comes out neagtive for this question which I simply can not find out why, something to dive into deeper another time</p>
-      
+     <h4>Background image for index page on browser<h4>
+      <p>I have added it in exactly how someone else has but for some reason my image doesnt want to show when loaded, another thing that has baffled me</p>
+       <br>
+       <hr>
   
   
