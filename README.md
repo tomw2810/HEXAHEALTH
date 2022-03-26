@@ -20,8 +20,6 @@ Hexahealth is a inline command run diary where it compares a users entry against
   <br>
   <li>Bugs</li>
   <br>
-   <li>Other Resources Used</li>
-  <br>
   <li>Deployed</li>
   <br>
   <li>Credits</li>
@@ -103,7 +101,7 @@ Hexahealth is a inline command run diary where it compares a users entry against
        Deployment was done at the start of the project to allow device testing throughout the development process.
 
        <p>My project was deployed via Heroku as follows:</p>
-
+<ul>
        <li>Remove un-used imports from run.py file.</li>
         <li>In order for input methods to work properly in the deployed mock terminal, add a new line character at the end of the text, inside the input method.</li>
         <li>If required, create list of requirements with the following command in the terminal: pip3 freeze > requirements.txt</li>
@@ -118,6 +116,8 @@ Hexahealth is a inline command run diary where it compares a users entry against
        <li>Click ‘Enable Automatic Deploys’.</li>
         <li>Ensure that ‘main’ branch is selected in Manual deploy section and click ‘Deploy Branch’.</li>
        <li>Once deployed, click ‘view’ to access deployed project.</li>
-        
+       </ul>
+       <br>
+       <hr>
        <h4>Credits</h4>
        <p> I want to thank my mentor Jack for his help and understanding on different issues through this project. He also fixed something that a Code Institute tutor gave me which turned out to be wrong, wasting 90 minutes of my time for one line of code which I really didnt have in the first place with long working days. </p>
